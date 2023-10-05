@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Bootstrap CSS link here -->
+    <!-- Add these lines to the <head> of your HTML file -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Grocery Store</title>
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Grocery Store</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <aside class="col-md-3">
+                <h2>Categories</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="#">Fruits</a></li>
+                    <li class="list-group-item"><a href="#">Vegetables</a></li>
+                    <li class="list-group-item"><a href="#">Dairy</a></li>
+                    <!-- Add more categories here -->
+                </ul>
+            </aside>
+
+            <section class="col-md-9">
+                <div class="row">
+                    <!-- Repeat this product card for all your 30 items -->
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product1.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Kiwi</h5>
+                                <p class="card-text">1/2 kg</p>
+                                <p class="card-text price">Rs 60</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product2.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Carrot</h5>
+                                <p class="card-text">1/2 kg</p>
+                                <p class="card-text price">Rs 35</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product3.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Cheese </h5>
+                                <p class="card-text">250 gm</p>
+                                <p class="card-text price">Rs 250</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product4.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Strawberry</h5>
+                                <p class="card-text">1/2 kg</p>
+                                <p class="card-text price">Rs 80</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product5.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Apple</h5>
+                                <p class="card-text">1/2 kg</p>
+                                <p class="card-text price">Rs 85</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product6.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Guava</h5>
+                                <p class="card-text">1/2 kg</p>
+                                <p class="card-text price">Rs 65</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product7.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Tomato</h5>
+                                <p class="card-text">1/2 kg</p>
+                                <p class="card-text price">Rs 40</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product8.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Butter</h5>
+                                <p class="card-text">250 gm</p>
+                                <p class="card-text price">Rs 300</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product9.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Lady Finger</h5>
+                                <p class="card-text">1/2 kg</p>
+                                <p class="card-text price">Rs 55</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product10.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Cabbage</h5>
+                                <p class="card-text">1/2 kg</p>
+                                <p class="card-text price">Rs 68</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/product11.jpg" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Yogurt</h5>
+                                <p class="card-text">1/2 kg</p>
+                                <p class="card-text price">Rs 70</p>
+                                <button class="btn btn-primary">Add to Cart</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Add more product articles here -->
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 Grocery Store</p>
+    </footer>
+</body>
+</html>
